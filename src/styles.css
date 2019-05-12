@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+img {
+    height: 200px;
+}
+
+.card {
+    display: inline-block;
+}
+
+.my-container {
+    margin: 20px;
+}
+
+.my-container p {
+    margin: 40px;
+}
+
+.my-col {
+    height: 500px;
+}
