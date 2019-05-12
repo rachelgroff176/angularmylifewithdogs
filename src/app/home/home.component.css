@@ -1,0 +1,19 @@
+img {
+    height: 200px;
+}
+
+.card {
+    display: inline-block;
+}
+
+.my-container {
+    margin: 20px;
+}
+
+.my-container p {
+    margin: 40px;
+}
+
+.my-col {
+    height: 500px;
+}

@@ -13,8 +13,8 @@ const routes: Routes = [
   { path: 'dew', component: DewComponent },
   { path: 'teddybears', component: TeddyBearsComponent },
   { path: 'aboutme', component: AboutMeComponent },
-  { path: '', pathMatch: 'full', redirectTo: '/home' },
-  { path: '**', pathMatch: 'full', redirectTo: '/home' }*/
+  { path: '', pathMatch: 'prefix', redirectTo: '/home' },
+  { path: '**', pathMatch: 'prefix', redirectTo: '/home' }*/
 ];
 
 @NgModule({
