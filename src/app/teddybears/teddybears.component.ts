@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-teddy-bears',
+  selector: 'app-teddybears',
   templateUrl: '../app.component.html',
-  styleUrls: ['./teddy-bears.component.css']
+  styleUrls: ['./teddybears.component.css']
 })
 export class TeddyBearsComponent implements OnInit {
-  title = 'Teddy Bears Title';
+  title = 'Teddy Bears Component Title';
   constructor() { }
 
   ngOnInit() {

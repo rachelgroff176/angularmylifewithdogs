@@ -5,6 +5,7 @@
         "autoprefixer",
         "classlist",
         "haspopup",
-        "labelledby"
+        "labelledby",
+        "teddybears"
     ]
 }

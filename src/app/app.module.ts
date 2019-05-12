@@ -3,15 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DewComponent } from './dew/dew.component';
-import { EinComponent } from './ein/ein.component';
-import { AboutMeComponent } from './aboutme/aboutme.component';
-import { TeddyBearsComponent } from './teddy-bears/teddy-bears.component';
+import { DewModule } from './dew/dew.module';
+import { EinModule} from './ein/ein.module';
+import { AboutMeModule } from './aboutme/aboutme.module';
+import { TeddyBearsModule } from './teddybears/teddybears.module';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
-  declarations: [ AppComponent, DewComponent, EinComponent, AboutMeComponent, TeddyBearsComponent ],
-  imports: [ BrowserModule, AppRoutingModule ],
-  providers: [],
-  bootstrap: [ AppComponent ]
+  declarations: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule, DewModule, EinModule, AboutMeModule, TeddyBearsModule, HomeModule],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

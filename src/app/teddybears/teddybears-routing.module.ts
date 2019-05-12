@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { EinComponent } from './ein.component';
+import { TeddyBearsComponent } from './teddybears.component';
 
 const routes: Routes = [
-    { path: 'ein', component: EinComponent }
+    { path: 'teddybears', component: TeddyBearsComponent }
 ];
 
 @NgModule({
     imports: [RouterModule.forChild(routes)],
     exports: [RouterModule]
 })
-export class EinRoutingModule {
+export class TeddyBearsRoutingModule {
 
 }
