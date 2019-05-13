@@ -8,13 +8,13 @@ import { TeddyBearsComponent } from '../app/teddybears/teddybears.component';
 import { AboutMeComponent } from '../app/aboutme/aboutme.component';
 
 const routes: Routes = [
-  /*{ path: 'home', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'ein', component: EinComponent },
   { path: 'dew', component: DewComponent },
   { path: 'teddybears', component: TeddyBearsComponent },
   { path: 'aboutme', component: AboutMeComponent },
-  { path: '', pathMatch: 'prefix', redirectTo: '/home' },
-  { path: '**', pathMatch: 'prefix', redirectTo: '/home' }*/
+  { path: '', pathMatch: 'full', redirectTo: '/home' },
+  { path: '**', pathMatch: 'full', redirectTo: '/home' }
 ];
 
 @NgModule({
