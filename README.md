@@ -12,6 +12,10 @@ This is an Angular version of my original web app, My Life with Dogs.
 * `npm install`
 * `npm start`
 
+# How to Build
+
+* `npm run build`
+
 # Where it is deployed
 
 Find the deployed app on Netlify: https://rachelgroff176-angularmylifewithdogs.netlify.com/
