@@ -1,5 +1,17 @@
-# Angular -- My Life with Dogs
+# Angular: My Life with Dogs
 
-This is a version of my original web app, My Life with Dogs, but made using Angular.
+This is an Angular version of my original web app, My Life with Dogs.
+
+# Requirements
+
+* npm
+* git
+
+# How to Run
+
+* `npm install`
+* `npm start`
+
+# Where it is deployed
 
 Find the deployed app on Netlify: https://rachelgroff176-angularmylifewithdogs.netlify.com/
